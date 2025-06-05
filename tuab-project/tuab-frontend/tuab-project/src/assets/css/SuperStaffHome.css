@@ -1,0 +1,695 @@
+body {
+    background-color: #DFE9F5;
+    width:100%;
+    }
+    
+    .menubar {
+    background-color: #abc3e8;
+    width: 25%;
+    height:100%;
+    padding-bottom: 4%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .content {
+    background-color: #DFE9F5;
+    width: 75%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .menu {
+    border-radius: 10px;
+    background-color: #3871c5;
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 80%;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+    
+    .menu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .menu span:after {
+    content:'>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5%;
+    transition: 0.6s;
+    }
+    
+    .menu:hover span {
+    padding-right: 8%;
+    }
+    
+    .menu:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    
+    .select {
+    color: #FFFFFF;
+    background-color: #94b9ef;
+    border-color: #94b9ef;
+    font-family: Verdana;
+    font-size: 100%;
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 2%;
+    font-weight: bold;
+    }
+    
+    .select:hover {
+    color: #94b9ef;
+    background-color: #FFFFFF;
+    border-color: #94b9ef;
+    border: 2px solid;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 100%;
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 2%;
+    }
+    
+    /* Staff menu */
+    .staffmenu {
+    border-radius: 10px;
+    background-color: #3871c5;
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 80%;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    }
+    
+    .staffmenu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .staffmenu span:after {
+    content:'>';
+    position:initial;
+    opacity: 0;
+    top: 0;
+    right: -5%;
+    transition: 0.6s;
+    }
+    
+    .staffmenu:hover span {
+    padding-right: 8%;
+    }
+    
+    .staffmenu:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    
+    .datepicker {
+    background-color: #ffffff;
+    border-color: #C5D4EB;
+    font-family: sans-serif;
+    padding-left: 2%;
+    padding-right: 1%;
+    font-size: 120%;
+    width: 45%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    }
+    
+    h1 {
+    color: #000000;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Verdana;
+    padding-left: 10%;
+    }
+    
+    a {
+    color: #000000;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 30px;
+    }
+    
+    label {
+    color: #000000;
+    font-size: 135%;
+    font-family: sans-serif;
+    padding-top: 30px;
+    }
+    
+    .namebar {
+    background-color: #90f2e3;
+    width: 100%;
+    float: left;
+    }
+    
+    h3 {
+    color: #000000;
+    font-size: 90%;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    }
+    
+    h4 {
+    color: #000000;
+    font-family: Verdana;
+    padding-left: 15%;
+    font-size: 130%;
+    }
+    
+    .slot {
+    background-color: #DFE9F5;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    margin-bottom: 20px;
+    }
+    
+    h2 {
+    color: #000000;
+    font-size: 130%;
+    font-family: Verdana;
+    float: left;
+    margin-left: 5%;
+    }
+    
+    name {
+    color: #000000;
+    font-size: 130%;
+    font-family: Verdana;
+    float: left;
+    margin-left: 1%;
+    }
+    
+    t1 {
+    color: #000000;
+    font-size: 100%;
+    font-family: Verdana;
+    float: left;
+    padding-top: 0.5%;
+    }
+    
+    p1 {
+    font-size: 150%;
+    background-color: #FFFFFF;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 8px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10%;
+    }
+    
+    p2 {
+    padding-top: 5%;
+    font-size: 150%;
+    color: #000000;
+    }
+    
+    h5 {
+    background-color:#C5D4EB;
+    color: #000000;
+    font-size: 120%;
+    font-family: Verdana;
+    border-radius: 10px;
+    border-style: none;
+    margin: auto;
+    padding: auto;
+    width: 18%;
+    height: 40px;
+    padding-top: 0.5%;
+    text-align: center;
+    }
+    
+    .slipbtn {
+    color: #FFFFFF;
+    background-color: #94b9ef;
+    border-color: #94b9ef;
+    font-family: Verdana;
+    font-size: 120%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    padding: auto;
+    width: 18%;
+    height: 40px;
+    text-align: center;
+    }
+    
+    .slipbtn:hover {
+    color: #94b9ef;
+    width: 18%;
+    background-color: #FFFFFF;
+    border-color: #94b9ef;
+    border: 2px solid;
+    font-family: Verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    
+    /* selection */
+    select {
+    cursor: pointer;
+    font-family: Verdana;
+    width: 33%;
+    color: #000000;
+    border-radius: 10px;
+    padding-left: 2%;
+    font-size: 100%;
+    background-color: #ffffff;
+    border-style: initial;
+    }
+    
+    .submit {
+    color: #FFFFFF;
+    background-color: #3871c5;
+    font-family: Verdana;
+    font-size: 120%;
+    font-weight: bolder;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    }
+    
+    .submit:hover {
+    color: #FFFFFF;
+    background-color: #649aeb;
+    font-family: Verdana;
+    font-size: 120%;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    /* PopUp */
+    .popup{
+    width: 30%;
+    height: 40%;
+    background: #c2dbf0;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    }
+    .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    }
+    
+    .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    }
+    
+    .container {
+    display: flex;
+    }
+
+    /* เพิ่มการปรับแต่งสำหรับแก้ปัญหาปฏิทินถูกแถบบังส่วนบนล่าง */
+    .content-wrapper {
+        padding: 20px;
+        height: 100%;
+    }
+    
+    .content h1, .content h4 {
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .calendar-container {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        margin: 20px 0;
+        padding-bottom: 50px; /* เพิ่มพื้นที่ด้านล่าง */
+    }
+    
+    /* แก้ไข CSS ปฏิทินให้แสดงผลเต็มพื้นที่ที่มี */
+    :deep(.calendar-container) {
+        max-height: none;
+        overflow: visible;
+    }
+    
+    :deep(.calendar-grid) {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 2px;
+    }
+    
+    /* สไตล์สำหรับ popup การจัดการการจอง */
+    .booking-popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังสีเข้มโปร่งใส */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+    
+    .booking-popup-content {
+        background-color: white;
+        border-radius: 8px;
+        width: 80%;
+        max-width: 700px;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .booking-popup-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5f5f5;
+        padding: 15px 20px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .booking-popup-header h2 {
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .close-btn {
+        font-size: 24px;
+        cursor: pointer;
+        color: #666;
+    }
+    
+    .close-btn:hover {
+        color: #000;
+    }
+    
+    .booking-popup-body {
+        padding: 15px 20px;
+    }
+    
+    .no-bookings {
+        text-align: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+    
+    /* ปรับแต่งสไตล์ slot ให้เหมาะกับ popup */
+    /* ลบช่องว่างที่ไม่จำเป็น */
+    .slot:empty,
+    .booking-popup-body > div > div:empty {
+        display: none;
+    }
+    
+    /* ปรับการแสดงผลของกล่องจอง */
+    .slot {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    
+    /* จัดรูปแบบข้อความใน slot */
+    .slot h2 {
+        color: #2c3e50;
+        margin: 0 0 5px 0;
+        font-size: 18px;
+    }
+    
+    .slot n {
+        display: block;
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .slot t1 {
+        display: block;
+        color: #555;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    
+    .slot h5 {
+        margin: 3px 0;
+        color: #333;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    /* จัดการปุ่มและ dropdown */
+    .slot .slipbtn {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 12px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.2s;
+    }
+    
+    .slot .slipbtn:hover {
+        background-color: #2980b9;
+    }
+    
+    .slot .status-select {
+        display: inline-block;
+        padding: 5px 8px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: 5px;
+        width: auto;
+        min-width: 150px;
+    }
+    
+    /* ตรวจสอบว่าไม่มีแถบว่างเปล่า */
+    .booking-popup-body > div > *:first-child:not(.slot):not(.no-bookings) {
+        display: none;
+    }
+    
+    /* ปรับระยะห่างในกรณีที่ไม่มีการจอง */
+    .no-bookings {
+        margin: 0;
+    }
+    
+    /* แก้ไข popup หลักฐานการจอง */
+    .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px 25px; /* เพิ่มพื้นที่ด้านบนและล่าง */
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        z-index: 2000;
+        width: 90%;
+        max-width: 400px;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s;
+        overflow: visible; /* ให้เนื้อหาแสดงได้เต็มที่ */
+        height: auto; /* ปรับความสูงตามเนื้อหา */
+        min-height: 280px; /* กำหนดความสูงขั้นต่ำ */
+    }
+    
+    .popup.open-popup {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    /* ปรับแต่งปุ่มปิด (X) ให้เป็นแค่กากบาทเรียบๆ */
+    .popup .close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        cursor: pointer;
+        font-size: 28px;
+        font-weight: bold;
+        color: #555;
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        transition: color 0.2s ease;
+        line-height: 1;
+    }
+    
+    .popup .close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: normal;
+        color: #666;
+        text-decoration: none;
+        background: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+        transition: color 0.2s;
+    }
+    
+    .popup .close:hover {
+        color: #333;
+    }
+    
+    .popup p1 {
+        display: block;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        color: #2c3e50;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        width: 100%;
+    }
+    
+    .popup p2 {
+        display: block;
+        text-align: left;
+        font-size: 16px;
+        color: #333;
+        margin: 12px 0;
+        padding: 0;
+        line-height: 1.5;
+        word-wrap: break-word; /* ตัดคำเมื่อข้อความยาวเกินไป */
+        overflow-wrap: break-word;
+        width: 100%;
+    }
+    
+    /* ปรับระยะห่างระหว่างบรรทัด */
+    .popup br {
+        display: block;
+        content: "";
+        margin-top: 10px;
+    }
+    
+    /* สไตล์สำหรับปุ่ม Update */
+    .update-btn {
+        display: inline-block;
+        background-color: #2ecc71;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 6px 12px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .update-btn:hover {
+        background-color: #27ae60;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .update-btn:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .update-btn-disabled {
+        background-color: #95a5a6;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .update-btn-disabled:hover {
+        background-color: #95a5a6;
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .btn-icon {
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    
+    @media screen and (max-width: 768px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .namebar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    @media screen and (max-width: 576px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .namebar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    

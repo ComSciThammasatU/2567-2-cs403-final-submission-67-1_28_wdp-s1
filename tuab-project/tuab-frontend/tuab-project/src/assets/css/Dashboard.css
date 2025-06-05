@@ -1,0 +1,365 @@
+body {
+    background-color: #DFE9F5;
+    width:100%;
+    }
+    .namebar {
+    background-color: #F9D871;
+    width: 100%;
+    float: left;
+    }
+    
+    h3 {
+    color: #000000;
+    font-size: 90%;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    }
+    .menubar {
+    background-color: #abc3e8;
+    width: 25%;
+    height:100%;
+    padding-bottom: 47%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .content {
+    background-color: #DFE9F5;
+    width: 75%;
+    float: left;
+    }
+    
+    .slot {
+    background-color: #DFE9F5;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    }
+    
+    .backbtn {
+    border-radius: 10px;
+    background-color: #3871c5;
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 80%;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+    
+    .backbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .backbtn span:after {
+    content:'<';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -5%;
+    transition: 0.6s;
+    }
+    
+    .backbtn:hover span {
+    padding-left: 10%;
+    }
+    
+    .backbtn:hover span:after {
+    opacity: 1;
+    left: 0;
+    }
+    
+    h1 {
+    color: #000000;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Verdana;
+    padding-left: 10%;
+    }
+    
+    h2 {
+    color: #000000;
+    font-size: 130%;
+    font-family: Verdana;
+    float: left;
+    margin-left: 15%;
+    }
+    
+    s1 {
+    background-color:#C5D4EB;
+    color: #000000;
+    font-size: 120%;
+    font-family: Verdana;
+    border-radius: 10px;
+    border-style: none;
+    margin: auto;
+    padding: auto;
+    width: 17%;
+    height: 40px;
+    padding-top: 0.5%;
+    text-align: center;
+    }
+    
+    .disabled-btn {
+        background-color: grey; /* เปลี่ยนสีปุ่มเป็นสีเทา */
+        color: white; /* สีตัวอักษร */
+        cursor: not-allowed; /* เปลี่ยน cursor แสดงว่าไม่สามารถคลิกได้ */
+        opacity: 0.5; /* ทำให้โปร่งใสเพื่อเอฟเฟกต์ grayout */
+    }
+    
+    .status-container {
+        display: flex;
+        justify-content: center; /* จัดรูปให้อยู่ตรงกลาง */
+        position: sticky; 
+        top: 0; /* ล็อกไว้ที่ด้านบนเมื่อเลื่อนถึง */
+        z-index: 1000; /* ทำให้เห็นได้ชัดเหนือ content อื่น */
+        background-color: white; /* สีพื้นหลังเพื่อให้มองเห็นได้เมื่อเลื่อน */
+        padding: 10px; /* เพิ่ม padding เพื่อให้มีพื้นที่รอบๆ รูป */
+        background-color: #DFE9F5;
+    }
+    
+    .sticky-img {
+        position: sticky;
+        top: 0; /* ล็อกรูปไว้ที่ด้านบนสุด */
+        z-index: 1000;
+        margin: 0 auto;
+        /* display: block; */
+    }
+    
+    .content2 {
+        height: 100%; /* จำลองความยาวของเนื้อหาเพื่อให้เห็นการเลื่อน */
+    }
+    
+    .cancelbtn {
+    border-radius: 10px;
+    background-color: #ED2939;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 15%;
+    height: 40px;
+    }
+    
+    .cancelbtn:hover {
+    border-radius: 10px;
+    background-color: #f06772;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 15%;
+    height: 40px;
+    }
+    
+    .addbtn {
+    border-radius: 10px;
+    background-color: #3871c5;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 15%;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+    
+    .addbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .addbtn span:after {
+    content:'+';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5%;
+    transition: 0.6s;
+    }
+    
+    .addbtn:hover span {
+    padding-right: 8%;
+    }
+    
+    .addbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    
+    .container {
+    display: flex;
+    }
+
+    /* สไตล์กลุ่มการจองตามวันที่ */
+    .date-group {
+        margin-bottom: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    /* สไตล์หัวข้อวันที่ */
+    .date-header {
+        font-size: 20px;
+        font-weight: 600;
+        color: #2c3e50;
+        padding: 10px 15px;
+        background-color: #e3eaf2;
+        border-radius: 8px 8px 0 0;
+        border-bottom: 2px solid #c5d4eb;
+        margin-bottom: 0;
+    }
+    
+    /* สไตล์รายการจองในแต่ละวัน */
+    .booking-item {
+        padding: 15px;
+        background-color: rgba(240, 245, 250, 0.7);
+        border-bottom: 1px solid #dde6f2;
+    }
+    
+    .booking-item:last-child {
+        border-bottom: none;
+        border-radius: 0 0 8px 8px;
+    }
+    
+    /* สไตล์แถวข้อมูลที่ใช้ flexbox */
+    .booking-info-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    /* สไตล์กล่องข้อมูล Lane และเวลา */
+    .lane-box, .time-box {
+        background-color: rgba(120, 144, 180, 0.2);
+        color: #2c3e50;
+        border: 1px solid rgba(120, 144, 180, 0.3);
+        padding: 8px 15px;
+        border-radius: 6px;
+        font-weight: 500;
+        text-align: center;
+        min-width: 90px;
+    }
+    
+    /* สไตล์สำหรับแสดงข้อความสถานะ */
+    .time-info {
+        font-size: 0.9em;
+        display: inline-block;
+        border-radius: 6px;
+        width: auto;
+        min-width: 230px;
+        text-align: center;
+        padding: 8px 12px;
+        line-height: 1.4;
+        font-weight: 500;
+        overflow: hidden;
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
+    
+    /* สถานะ Confirmed */
+    .confirm-time {
+        background-color: rgba(40, 167, 69, 0.15);
+        border: 1px solid rgba(40, 167, 69, 0.3);
+        color: #155724;
+    }
+    
+    /* สถานะ Canceled */
+    .cancel-time {
+        background-color: rgba(220, 53, 69, 0.15);
+        border: 1px solid rgba(220, 53, 69, 0.3);
+        color: #721c24;
+    }
+    
+    /* สถานะ Pending */
+    .pending-time {
+        background-color: rgba(255, 193, 7, 0.15);
+        border: 1px solid rgba(255, 193, 7, 0.3);
+        color: #856404;
+    }
+    
+    /* ปุ่ม Payment */
+    .payment-btn {
+        border-radius: 6px;
+        background-color: #3871c5;
+        font-family: sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        min-width: 120px;
+        padding: 8px 15px;
+        transition: all 0.3s;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-left: auto; /* ดันปุ่มไปทางขวา */
+    }
+    
+    .payment-btn:hover:not(:disabled) {
+        background-color: #2c5ba2;
+    }
+    
+    .payment-btn.disabled-btn {
+        background-color: #a6b8d0;
+        cursor: not-allowed;
+        opacity: 0.7;
+    }
+    
+    /* สำหรับหน้าจอมือถือ */
+    @media screen and (max-width: 768px) {
+        .booking-info-row {
+        flex-direction: column;
+        align-items: flex-start;
+        }
+        
+        .lane-box, .time-box, .time-info, .payment-btn {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+        }
+        
+        .time-info {
+        min-width: unset;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .namebar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    @media screen and (max-width: 576px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .namebar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }

@@ -1,0 +1,130 @@
+body {
+    background-color: #DFE9F5;
+    width:100%;
+    }
+    
+    .menubar {
+    background-color: #abc3e8;
+    width: 25%;
+    height:100%;
+    padding-bottom: 90%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .content {
+    background-color: #DFE9F5;
+    width: 75%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    }
+    .menu {
+    border-radius: 10px;
+    background-color: #3871c5;
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 80%;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+    
+    .menu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .menu span:after {
+    content:'>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5%;
+    transition: 0.6s;
+    }
+    
+    .menu:hover span {
+    padding-right: 8%;
+    }
+    
+    .menu:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    
+    h1 {
+    color: #000000;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Verdana;
+    padding-left: 10%;
+    }
+    
+    a {
+    color: #000000;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 30px;
+    }
+    
+    label {
+    color: #000000;
+    font-size: 135%;
+    font-family: sans-serif;
+    padding-top: 30px;
+    }
+    
+    .namebar {
+    background-color: #F9D871;
+    width: 100%;
+    float: left;
+    }
+    
+    h3 {
+    color: #000000;
+    font-size: 90%;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    }
+    
+    h4 {
+    color: #000000;
+    font-family: Verdana;
+    padding-left: 15%;
+    font-size: 130%;
+    }
+    .container {
+    display: flex;
+    }
+    
+    @media screen and (max-width: 768px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .namebar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    @media screen and (max-width: 576px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .namebar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }

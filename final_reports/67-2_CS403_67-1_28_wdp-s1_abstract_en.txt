@@ -1,0 +1,8 @@
+ระบบจองคิวสนามยิงธนู มหาวิทยาลัยธรรมศาสตร์ เวอร์ชัน 2
+TU ARCHERY BOOKING SYSTEM VERSION 2
+
+	Thammasat University Archery Range Booking System (TUAB) is a system that provides archery range booking services for students and staff of Thammasat University in the form of a web application.
+	At present, users who wish to access the archery range must check the opening dates and hours, and make bookings by contacting athletes of the Thammasat University Archery Club directly through the LINE application or other online platforms. Bookings can only be made on a day-to-day basis. Each request requires users to wait for a response, and the athletes must also respond manually. This communication process often consumes time and may result in booking cancellations due to queue management errors.
+	Therefore, the developer aims to create the Thammasat University Archery Range Booking System (TUAB) to resolve these problems and improve the accuracy of queue management. The system is expected to benefit students and staff, while also reducing the workload of the Thammasat University Archery Club athletes.
+
+Keywords: Web application, Booking system, Archery, Reservation

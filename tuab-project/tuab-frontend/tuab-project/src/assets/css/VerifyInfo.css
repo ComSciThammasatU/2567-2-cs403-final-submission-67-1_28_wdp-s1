@@ -1,0 +1,255 @@
+body {
+    background-color: #DFE9F5;
+    width:100%;
+    }
+    
+    .menubar {
+    background-color: #abc3e8;
+    width: 25%;
+    height:100%;
+    padding-bottom: 47%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .content {
+    background-color: #DFE9F5;
+    width: 75%;
+    float: left;
+    }
+
+    .backbtn {
+    border-radius: 10px;
+    background-color: #3871c5;
+    font-family: Verdana;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    width: 80%;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+    
+    .backbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .backbtn span:after {
+    content:'<';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -5%;
+    transition: 0.6s;
+    }
+    
+    .backbtn:hover span {
+    padding-left: 10%;
+    }
+    
+    .backbtn:hover span:after {
+    opacity: 1;
+    left: 0;
+    }
+    
+    h1 {
+    color: #000000;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Verdana;
+    padding-left: 10%;
+    }
+    
+    h2 {
+    color: #000000;
+    font-size: 130%;
+    font-family: Verdana;
+    float: left;
+    margin-left: 15%;
+    }
+    
+    h3 {
+    color: #737373;
+    font-size: 90%;
+    font-family: Verdana;
+    float: left;
+    margin-left: 2%;
+    }
+
+    h4 {
+    color: #000000;
+    font-size: 90%;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    }
+
+    h5 {
+    color: #286ad3;
+    font-size: 100%;
+    font-family: Verdana;
+    float: left;
+    margin-left: 13%;
+    }
+    
+    .namebar {
+    background-color: #F9D871;
+    width: 100%;
+    float: left;
+    }
+    
+    h4 {
+    color: #000000;
+    font-size: 90%;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    }
+    
+    .info {
+    background-color:#C5D4EB;
+    color: #000000;
+    border-style: none;
+    border-radius: 10px;
+    border-color: #C5D4EB;
+    font-family: Verdana;
+    font-size: 120%;
+    width: 25%;
+    height: 40px;
+    margin-left: 2%;
+    padding-top: 0.5%;
+    text-align: center;
+    }
+
+    .line {
+      display: flex; /* ใช้ Flexbox เพื่อจัดวางข้อมูลในบรรทัดเดียวกัน */
+      align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+      margin-bottom: 15px; /* ระยะห่างระหว่างบรรทัด */
+    }
+    
+    .line h2 {
+      margin-left: 10%; /* ปรับ margin ของ h2 ในบรรทัด */
+      margin-right: 20px; /* เพิ่ม margin ขวา เพื่อเว้นระยะห่างระหว่าง h2 และ span */
+    }
+    
+    .line .info {
+      margin-right: 5px; /* เพิ่ม margin ขวา เพื่อเว้นระยะห่างระหว่าง info */
+    }
+    
+    .line input {
+      margin-right: 3px; /* เพิ่ม margin ขวา เพื่อเว้นระยะห่างระหว่าง input */
+    }
+
+    .line2 {
+      display: flex; /* ใช้ Flexbox เพื่อจัดวางข้อมูลในบรรทัดเดียวกัน */
+      align-items: center; /* จัดกึ่งกลางแนวตั้ง */
+      margin-bottom: 15px; /* ระยะห่างระหว่างบรรทัด */
+      margin-right: 20px;
+    }
+
+    .line2 h2 {
+      margin-left: 10%; /* ปรับ margin ของ h2 ในบรรทัด */
+      margin-right: 20px; /* เพิ่ม margin ขวา เพื่อเว้นระยะห่างระหว่าง h2 และ span */
+    }
+
+    .line2 input {
+      margin-right: 1px; /* เพิ่ม margin ขวา เพื่อเว้นระยะห่างระหว่าง input */
+    }
+    
+    input {
+    background-color:#d4dade;
+    color: #000000;
+    border-style: none;
+    border-radius: 10px;
+    border-color: #C5D4EB;
+    font-family: Verdana;
+    font-size: 120%;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    margin-left: 2%;
+    }
+    
+    .submit {
+    color: #FFFFFF;
+    background-color: #3871C5;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-size: 120%;
+    width: 25%;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 5%;
+    transition: all 0.5s;
+    }
+    
+    .submit span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.6s;
+    }
+    
+    .submit span:after {
+    content:'>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5%;
+    transition: 0.6s;
+    }
+    
+    .submit:hover span {
+    padding-right: 9%;
+    }
+    
+    .submit:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+
+    .container {
+    display: flex;
+    }
+
+    .box { 
+        align-items: center;
+        margin-left: -4%;
+        margin-top: -4.75%; /* เพิ่ม margin-bottom เพื่อจัดวาง */
+      }
+      
+      .small-checkbox {
+        transform: scale(0.5);
+      }
+
+    @media screen and (max-width: 768px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .menubar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    @media screen and (max-width: 576px) {
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    }
+    .menubar {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    
