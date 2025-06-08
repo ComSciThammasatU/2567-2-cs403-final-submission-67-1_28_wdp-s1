@@ -124,7 +124,11 @@ npm run dev
 ## 🎥 Demo Video
 
 A demonstration video showing the installation and usage process is available in the `demo/` folder:
-- **`67-2_CS403_67-1_28_wdp-s1_demo.mp4`**
+- **`67-2_CS403_67-1_28_wdp-s1_demo1.mp4`**
+- **`67-2_CS403_67-1_28_wdp-s1_demo2.mp4`**
+
+HD and normal speed demonstration video is available via Google Drive:
+- **`https://drive.google.com/file/d/1vCw3cgzXfvMF5XzWOy2hkQgIxOfOjq7C/view?usp=sharing`**
 
 ## 📞 Contact
 
